@@ -11,9 +11,9 @@ export default {
     "mobile": "+51 986 640 912",
     "homepage": "https://www.walkeralfaro.com",
     "linkedin": "https://www.linkedin.com/in/walkeralfaro/",
-    "github": ""
+    "github": "https://github.com/walkeralfaro"
   },
-  "summary": "Desarrollador Full-Stack e Ingeniero Electrónico con más de 5 años de experiencia en el desarrollo de aplicaciones web y más de 10 años en automatización industrial y desarrollo de software. Especializado en React, Next.js, TypeScript, Node.js y NestJS, con experiencia en el diseño de interfaces accesibles y responsive, gestión de estado, formularios complejos, validación de datos y consumo de APIs REST.\n\nExperiencia en backend con arquitecturas limpias y servicios desacoplados, utilizando PostgreSQL, MySQL y MongoDB con Prisma, Sequelize, Mongoose y Eloquent ORM. Conocimientos en Laravel, PHP, Java, Spring Boot, Docker, Git y Figma.\n\nOrientado a resultados, con experiencia en levantamiento de requerimientos, diseño, implementación, despliegue y documentación técnica. Interesado en roles de Desarrollador Full-Stack, Frontend o Backend.",
+  "summary": "Desarrollador Full-Stack e Ingeniero Electrónico con más de 5 años en desarrollo web y más de 10 años en automatización industrial y software. Especializado en React, Next.js, TypeScript, JavaScript, Node.js, NestJS, Astro y Tailwind CSS, con experiencia en arquitecturas limpias, APIs REST, accesibilidad, diseño responsive y seguridad. Ha liderado el desarrollo de aplicaciones web con integración de servidores MCP, herramientas CRUD para agentes de IA y Prompt Engineering, aplicando autenticación con tokens SHA-256, persistencia con Prisma, SQLite, PostgreSQL, MySQL y MongoDB, validación con Zod, estado con Zustand, pruebas con Vitest y Playwright y despliegue en Vercel. También domina Laravel, PHP, Java, Spring Boot, Docker y Git.\n\nCuenta con experiencia en gestión de proyectos TI para clientes privados y estatales, coordinando alcance, cronograma y recursos, con liderazgo de equipos multidisciplinarios y operaciones de soporte y mantenimiento 24/7. Ha gestionado iniciativas de biometría, distribución e instalación de servidores a nivel nacional y mantenimiento de equipos de parqueo en múltiples clientes y sedes. Su base en automatización, monitoreo y control industrial incluye DCS, SCADA en LabVIEW e InTouch, HMI, automatización Batch, System Platform y ArchestrA, con experiencia en minería, data centers, cementeras, navíos y laboratorios. Orientado a resultados, con experiencia en levantamiento de requerimientos, documentación técnica y coordinación de equipos; busca roles de Desarrollador Full-Stack, Frontend, Backend o Gestión de Proyectos TI.",
   "education": [
     {
       "degree": "Desarrollador Web - Java",
@@ -44,12 +44,15 @@ export default {
       "location": "Lima, Perú",
       "dates": "Feb 2025 - Actualidad",
       "bullets": [
-        "Desarrollo de aplicaciones web full-stack con React, Next.js, Node.js y NestJS, cubriendo el ciclo completo: levantamiento de requerimientos, diseño, implementación y despliegue.",
-        "Implementación de interfaces con React, Hooks personalizados, React Router v7 y consumo de APIs REST, priorizando accesibilidad, rendimiento y diseño responsive.",
-        "Construcción de aplicaciones con Next.js (App Router), Server Actions, Server Components, rutas dinámicas, TypeScript, Zod y Zustand.",
-        "Desarrollo de interfaces mobile-first con Tailwind CSS, shadcn/ui y componentes headless reutilizables.",
-        "Documentación técnica y aplicación de buenas prácticas de arquitectura, calidad de código y experiencia de usuario."
-      ]
+        "Desarrollo de aplicaciones web full-stack con React 19, Next.js 16 (App Router), TypeScript, Server Actions, Astro, Vite, Tailwind CSS y despliegue en Vercel.",
+        "Integración de servidores MCP (Model Context Protocol) en aplicaciones web para exponer tools CRUD a agentes de IA, compartiendo la misma capa de negocio y persistencia con Prisma, SQLite y validación Zod.",
+        "Implementación de autenticación con tokens de acceso por usuario, hash SHA-256, expiración a 90 días y revocación inmediata, aplicando buenas prácticas de seguridad.",
+        "Uso de agentes de IA para el desarrollo de aplicaciones web y automatización de flujos, junto con Prompt Engineering para generar prompts estructurados de 7 líneas, catálogos de estilos y filtros anti-tópicos.",
+        "Desarrollo de interfaces con Zustand, React Router v7, localStorage, edición inline, vista previa en vivo, modo oscuro y layouts de impresión optimizados.",
+        "Aseguramiento de calidad con pruebas unitarias, de integración y E2E mediante Vitest y Playwright, documentación de arquitectura interactiva y modelado de datos con Prisma y SQLite."
+      ],
+      "techSkills": "React, Next.js, TypeScript, JavaScript, Node.js, NestJS, Server Actions, Astro, Vite, Tailwind CSS, MCP (Model Context Protocol), Prisma, SQLite, PostgreSQL, MySQL, MongoDB, Zod, Zustand, React Router, Prompt Engineering, autenticación con tokens SHA-256, seguridad de aplicaciones, Vitest, Playwright, Vercel, Docker, Git.",
+      "softSkills": "Comunicación técnica, resolución de problemas, autonomía, adaptabilidad, orientación a resultados."
     },
     {
       "position": "Desarrollador Web",
@@ -64,7 +67,9 @@ export default {
         "Desarrollo del backend con Laravel y PHP, implementando modelos, controladores y componentes reutilizables.",
         "Implementación de un panel administrativo con Filament para la gestión eficiente de recursos.",
         "Documentación técnica y funcional de la plataforma con Docusaurus, dirigida a usuarios y desarrolladores."
-      ]
+      ],
+      "techSkills": "Alpine.js, Blade, Bootstrap, Swiper, UI/UX, diseño responsive, MySQL, Eloquent ORM, Laravel, PHP, Filament, Docusaurus, HTML5, CSS3, JavaScript, Git, documentación técnica.",
+      "softSkills": "Trabajo en equipo, comunicación, levantamiento de requerimientos, atención al detalle, orientación al usuario."
     },
     {
       "position": "Coordinador de Proyectos TI",
@@ -72,23 +77,98 @@ export default {
       "location": "Lima, Perú",
       "dates": "Nov 2017 - Jul 2019",
       "bullets": [
-        "Coordinación de proyectos de TI para empresas de los sectores privado y estatal, gestionando alcance, cronograma y recursos.",
-        "Liderazgo de un equipo de más de 15 colaboradores en las operaciones de mantenimiento, coordinando la labor diaria y asegurando la continuidad operativa."
-      ]
+        "Gestión de proyectos de TI para clientes de los sectores privado y estatal, coordinando alcance, cronograma, recursos y equipos de trabajo.",
+        "Liderazgo de más de 20 personas en la coordinación de proyectos, mantenimientos y operaciones de soporte técnico.",
+        "Gestión del proyecto de implementación de puertas biométricas en el Aeropuerto Internacional Jorge Chávez.",
+        "Gestión del proyecto de distribución, instalación y capacitación de servidores en 56 UGEL a nivel nacional.",
+        "Coordinación del mantenimiento y soporte de equipos de parqueo en más de 20 clientes y 40 playas de estacionamiento, con cobertura 24/7.",
+        "Gestión de horarios y actividades de más de 15 colaboradores de soporte y mantenimiento, asegurando la continuidad operativa."
+      ],
+      "techSkills": "Gestión de proyectos TI, planificación de cronogramas, coordinación de recursos, liderazgo de equipos, mantenimiento preventivo y correctivo, soporte técnico 24/7, instalación y distribución de servidores, biometría, capacitación, atención a clientes.",
+      "softSkills": "Liderazgo, comunicación, organización, toma de decisiones, orientación a resultados, trabajo bajo presión."
+    },
+    {
+      "position": "Ingeniero de Proyectos",
+      "organisation": "Descom Industrial Process S.A.C.",
+      "location": "Lima, Perú",
+      "dates": "Ago 2016 - Jul 2017",
+      "bullets": [
+        "Implementación de automatización Batch en planta de fabricación de cemento, integrando lógica de control y secuencias de proceso.",
+        "Desarrollo de SCADA con InTouch para la supervisión y operación de procesos industriales.",
+        "Implementación de un sistema integrado de monitoreo con System Platform y ArchestrA para la visualización y supervisión de variables de proceso."
+      ],
+      "techSkills": "Automatización Batch, SCADA, InTouch, System Platform, ArchestrA, control de procesos, monitoreo industrial, plantas de cemento.",
+      "softSkills": "Resolución de problemas, trabajo en equipo, adaptación a entornos industriales."
     },
     {
       "position": "Gerente de Proyectos",
       "organisation": "Sociedad Inducontrol Ingeniería S.A.C.",
       "location": "Lima, Perú",
-      "dates": "Sep 2014 - Sep 2015",
+      "dates": "Ago 2014 - Dic 2015",
       "bullets": [
-        "Dirección del área de proyectos de automatización industrial en sectores como data centers, cementeras y minería.",
+        "Dirección del área de proyectos de automatización industrial en data centers, cementeras y minería, gestionando alcance, cronograma y recursos.",
         "Gestión del cierre de proyectos y búsqueda activa de nuevas oportunidades de negocio.",
         "Diseño e implementación de un plan de capacitación técnica para ingenieros del área, fortaleciendo sus competencias técnicas."
-      ]
+      ],
+      "techSkills": "Automatización industrial, gestión de proyectos, planificación de recursos, cierre de proyectos, desarrollo de negocio, dirección de equipos.",
+      "softSkills": "Liderazgo, comunicación, toma de decisiones, negociación, orientación a resultados."
+    },
+    {
+      "position": "Ingeniero de Proyectos",
+      "organisation": "Sociedad Inducontrol Ingeniería S.A.C.",
+      "location": "Lima, Perú",
+      "dates": "Feb 2013 - Jul 2014",
+      "bullets": [
+        "Desarrollo de proyectos de automatización, monitoreo y supervisión en sectores como minería, data centers, cementeras, navíos y laboratorios, cubriendo ingeniería básica y de detalle.",
+        "Diseño de Sistemas de Control Distribuido (DCS) para la operación y supervisión de procesos industriales.",
+        "Programación de aplicaciones SCADA en LabVIEW y desarrollo de interfaces de usuario a medida (HMI) para el monitoreo de procesos.",
+        "Elaboración de memorias descriptivas, ingenierías básicas y de detalle, y documentación técnica de proyectos de automatización."
+      ],
+      "techSkills": "Automatización industrial, DCS (Sistemas de Control Distribuido), SCADA, LabVIEW, HMI, control de procesos, monitoreo y supervisión, ingeniería básica y de detalle, documentación técnica.",
+      "softSkills": "Análisis de problemas, trabajo en equipo, comunicación técnica, orientación al detalle."
     }
   ],
   "projects": [
+    {
+      "project": "TODO-mcp",
+      "organisation": "Proyecto personal",
+      "location": "Lima, Perú",
+      "dates": "Oct 2026 - Actualidad",
+      "bullets": [
+        "Desarrollo de una aplicación de gestión de tareas con arquitectura dual: interfaz en Next.js 16 (App Router, React 19 y Server Actions) y servidor MCP sobre SQLite, compartiendo la misma capa de negocio con Prisma y validación Zod.",
+        "Implementación de 5 tools CRUD para agentes de IA, filtros por estado, búsqueda paginada y actualización automática de la fecha de culminación.",
+        "Gestión de tokens MCP por usuario con hash SHA-256, expiración a 90 días y revocación inmediata; autenticación con Better Auth.",
+        "Cobertura con pruebas unitarias, de integración y E2E mediante Vitest y Playwright, además de documentación de arquitectura interactiva autocontenida."
+      ],
+      "techSkills": "Next.js 16, React 19, TypeScript, Server Actions, Prisma, SQLite, Zod, MCP (Model Context Protocol), agentes de IA, Tailwind CSS, Better Auth, Vitest, Playwright.",
+      "link": "https://github.com/walkeralfaro/todo-mcp-dual"
+    },
+    {
+      "project": "Image Prompt",
+      "organisation": "Proyecto personal",
+      "location": "Lima, Perú",
+      "dates": "Oct 2026",
+      "bullets": [
+        "Desarrollo de una aplicación web con cuestionario guiado que genera prompts optimizados de 7 líneas para generadores de imágenes con IA (ChatGPT Images, DALL-E y Midjourney).",
+        "Implementación de un motor de Prompt Engineering con catálogo de 17 estilos, filtros anti-tópicos por 7 temáticas, vista previa en vivo y detector de adjetivos vacíos.",
+        "Gestión de múltiples proyectos, borradores, historial e idioma ES/EN con Zustand y persistencia en localStorage; exportación a Markdown y tema claro/oscuro."
+      ],
+      "techSkills": "React 19, TypeScript, Vite 8, React Router v7, Zustand, Tailwind CSS v4, Prompt Engineering, Lucide React, localStorage.",
+      "link": "https://github.com/walkeralfaro/image-prompt"
+    },
+    {
+      "project": "Cheatsheet Editor",
+      "organisation": "Proyecto personal",
+      "location": "Lima, Perú",
+      "dates": "Jul 2026",
+      "bullets": [
+        "Desarrollo de una aplicación web 100% local para crear, organizar y administrar cheat sheets de atajos de teclado, sin backend ni registro.",
+        "Implementación de múltiples cheat sheets, edición inline, vista previa en vivo, modo oscuro automático y persistencia en localStorage.",
+        "Vista de impresión optimizada para PDF en 2 columnas, construida con Astro, React, TypeScript y Tailwind CSS v4."
+      ],
+      "techSkills": "Astro, React, TypeScript, Tailwind CSS v4, localStorage, impresión PDF.",
+      "link": "https://github.com/walkeralfaro/cheatsheet-editor-"
+    },
     {
       "project": "Portfolio Profesional",
       "organisation": "Proyecto personal",
@@ -105,71 +185,47 @@ export default {
       "project": "REST Countries Explorer",
       "organisation": "Proyecto personal",
       "location": "Lima, Perú",
-      "dates": "Abr 2023 - Actualidad",
+      "dates": "Abr 2023 - May 2023",
       "bullets": [
         "Aplicación web responsive que consume la API REST Countries para buscar y filtrar países por nombre o región.",
         "Implementación de tema claro/oscuro, vistas de detalle y una interfaz accesible con React, Next.js y TypeScript."
       ],
       "techSkills": "React, Next.js, TypeScript, API REST, Tailwind CSS.",
       "link": "https://walkeralfaro.com/"
-    },
-    {
-      "project": "Weather Dashboard",
-      "organisation": "Proyecto personal",
-      "location": "Lima, Perú",
-      "dates": "Abr 2023 - Actualidad",
-      "bullets": [
-        "Dashboard meteorológico que consume las APIs Open-Meteo y Geocoding para mostrar condiciones en tiempo real, pronósticos horarios y resúmenes diarios.",
-        "Gestión de estado global con Zustand para actualizaciones rápidas y predecibles."
-      ],
-      "techSkills": "React, Next.js, TypeScript, Zustand, API REST.",
-      "link": "https://walkeralfaro.com/"
-    },
-    {
-      "project": "Multi Step Form",
-      "organisation": "Proyecto personal",
-      "location": "Lima, Perú",
-      "dates": "Abr 2023 - Actualidad",
-      "bullets": [
-        "Solución al reto Multi-step Form de Frontend Mentor, con navegación por pasos, validaciones y layouts responsive bajo un enfoque mobile-first.",
-        "Implementación de formularios con React Hook Form y validación de datos, estilizado con Tailwind CSS y shadcn/ui."
-      ],
-      "techSkills": "React, Next.js, TypeScript, React Hook Form, Tailwind CSS, shadcn/ui.",
-      "link": "https://walkeralfaro.com/"
-    },
-    {
-      "project": "URL Shortener",
-      "organisation": "Proyecto personal",
-      "location": "Lima, Perú",
-      "dates": "Abr 2023 - Actualidad",
-      "bullets": [
-        "Aplicación full-stack para el acortamiento de URLs con backend propio y persistencia de enlaces en MongoDB.",
-        "Implementación de validaciones con Zod, copiado al portapapeles y diseño responsive, sin depender de servicios externos de acortamiento."
-      ],
-      "techSkills": "Next.js, TypeScript, Node.js, MongoDB, Mongoose, Zod.",
-      "link": "https://walkeralfaro.com/"
     }
   ],
   "skills": [
     {
       "category": "Frontend",
-      "skills": "React, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, shadcn/ui, Zustand, React Hook Form, React Router, Alpine.js, Bootstrap"
+      "skills": "React, Next.js (App Router), TypeScript, JavaScript (ES6+), HTML5, CSS3, Astro, Tailwind CSS, shadcn/ui, Zustand, React Hook Form, React Router, Server Actions, Alpine.js, Bootstrap"
     },
     {
       "category": "Backend",
-      "skills": "Node.js, NestJS, Express, Laravel, PHP, Java, Spring Boot, APIs REST, Zod"
+      "skills": "Node.js, NestJS, Express, Laravel, PHP, Java, Spring Boot, APIs REST, Zod, Better Auth"
     },
     {
       "category": "Bases de Datos",
-      "skills": "PostgreSQL, MySQL, MongoDB, Prisma, Sequelize, Mongoose, Eloquent ORM"
+      "skills": "PostgreSQL, MySQL, MongoDB, SQLite, Prisma, Sequelize, Mongoose, Eloquent ORM"
+    },
+    {
+      "category": "IA y Automatización",
+      "skills": "MCP (Model Context Protocol), agentes de IA, Prompt Engineering, herramientas CRUD, automatización de flujos"
+    },
+    {
+      "category": "Automatización Industrial",
+      "skills": "DCS, SCADA, LabVIEW, InTouch, HMI, System Platform, ArchestrA, automatización Batch, control de procesos, monitoreo y supervisión"
+    },
+    {
+      "category": "Testing y Calidad",
+      "skills": "Vitest, Playwright, pruebas unitarias, pruebas de integración, pruebas E2E, Clean Code, documentación técnica"
     },
     {
       "category": "Herramientas y DevOps",
-      "skills": "Git, GitHub, Docker, Vite, Figma, Docusaurus, Filament"
+      "skills": "Git, GitHub, Docker, Vite, Vercel, Figma, Docusaurus, Filament"
     },
     {
       "category": "Competencias",
-      "skills": "Diseño responsive, Mobile-first, Accesibilidad web (a11y), Clean Code, Arquitectura de software, Gestión de proyectos, Liderazgo de equipos, Documentación técnica"
+      "skills": "Diseño responsive, Mobile-first, Accesibilidad web (a11y), Arquitectura de software, Gestión de proyectos, Liderazgo de equipos, Comunicación técnica, Resolución de problemas"
     }
   ],
   "courses": [

@@ -57,6 +57,9 @@ const esc = (value) =>
 const safeHref = (href) =>
   /^(https?:|mailto:|tel:)/i.test(String(href)) ? esc(href) : "#";
 
+const anchor = (href, label) =>
+  `<a href="${safeHref(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`;
+
 const icon = {
   phone:
     '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1L6.6 10.8z"/></svg>',
@@ -138,7 +141,7 @@ ${items.join("\n")}
 function entry({ title, subtitle, location, dates, bullets, techSkills, softSkills, link, linkLabel = "Ver" }) {
   const locationHtml = [
     location ? esc(location) : "",
-    link ? `<a href="${safeHref(link)}">${esc(linkLabel)}</a>` : "",
+    link ? anchor(link, linkLabel) : "",
   ]
     .filter(Boolean)
     .join(" · ");
@@ -200,27 +203,27 @@ function header(personal) {
 
   if (personal.mobile) {
     contact.push(
-      `<li>${icon.phone}<a href="tel:${esc(personal.mobile)}">${esc(personal.mobile)}</a></li>`,
+      `<li>${icon.phone}${anchor(`tel:${personal.mobile}`, personal.mobile)}</li>`,
     );
   }
   if (personal.email) {
     contact.push(
-      `<li>${icon.email}<a href="mailto:${esc(personal.email)}">${esc(personal.email)}</a></li>`,
+      `<li>${icon.email}${anchor(`mailto:${personal.email}`, personal.email)}</li>`,
     );
   }
   if (personal.homepage) {
     contact.push(
-      `<li>${icon.homepage}<a href="${safeHref(withProtocol(personal.homepage))}">${esc(displayUrl(personal.homepage))}</a></li>`,
+      `<li>${icon.homepage}${anchor(withProtocol(personal.homepage), displayUrl(personal.homepage))}</li>`,
     );
   }
   if (personal.github) {
     contact.push(
-      `<li>${icon.github}<a href="${safeHref(githubUrl(personal.github))}">${esc(displayUrl(personal.github))}</a></li>`,
+      `<li>${icon.github}${anchor(githubUrl(personal.github), displayUrl(personal.github))}</li>`,
     );
   }
   if (personal.linkedin) {
     contact.push(
-      `<li>${icon.linkedin}<a href="${safeHref(linkedinUrl(personal.linkedin))}">${esc(displayUrl(personal.linkedin))}</a></li>`,
+      `<li>${icon.linkedin}${anchor(linkedinUrl(personal.linkedin), displayUrl(personal.linkedin))}</li>`,
     );
   }
 
@@ -291,7 +294,7 @@ const renderers = {
       bullets: item.bullets,
     })),
   experience: (value) =>
-    entriesSection("Work Experience", value, (item) => ({
+    entriesSection("Relevant Experience", value, (item) => ({
       title: item.organisation,
       subtitle: item.position,
       location: item.location,
@@ -329,8 +332,7 @@ const renderers = {
     rowsSection("Interests", value, (item) => {
       const links = (item.links ?? [])
         .map(
-          (link) =>
-            `<a href="${safeHref(link.href)}">${esc(link.label)}</a>`,
+          (link) => anchor(link.href, link.label),
         )
         .join(", ");
       return row(
