@@ -105,7 +105,7 @@ function fail(message) {
 function section(title, body) {
   // The russell template highlights only the first three characters of a heading.
   return `<section class="cv-section">
-<h2 class="cv-section-title"><span class="cv-section-accent">${esc(title.slice(0, 3))}</span>${esc(title.slice(3))}</h2>
+<h2 class="cv-section-title">${esc(title)}</h2>
 ${body}
 </section>`;
 }
