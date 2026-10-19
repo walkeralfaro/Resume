@@ -1,0 +1,44 @@
+- name: "Portfolio Profesional"
+  url: "https://walkeralfaro.com/"
+  location: "Lima, Perú"
+  date: "Abr 2023 - Actualidad"
+  items:
+    - "Diseño y desarrollo de un portfolio web para la presentación de proyectos frontend y full-stack, con enfoque en rendimiento, accesibilidad y arquitectura escalable."
+    - "Implementación con Next.js, React, TypeScript y Tailwind CSS, aplicando buenas prácticas de UI/UX y componentes reutilizables."
+    - "Stack: Next.js, React, TypeScript, Tailwind CSS."
+
+- name: "REST Countries Explorer"
+  url: "https://walkeralfaro.com/"
+  location: "Lima, Perú"
+  date: "Abr 2023 - Actualidad"
+  items:
+    - "Aplicación web responsive que consume la API REST Countries para buscar y filtrar países por nombre o región."
+    - "Implementación de tema claro/oscuro, vistas de detalle y una interfaz accesible con React, Next.js y TypeScript."
+    - "Stack: React, Next.js, TypeScript, API REST, Tailwind CSS."
+
+- name: "Weather Dashboard"
+  url: "https://walkeralfaro.com/"
+  location: "Lima, Perú"
+  date: "Abr 2023 - Actualidad"
+  items:
+    - "Dashboard meteorológico que consume las APIs Open-Meteo y Geocoding para mostrar condiciones en tiempo real, pronósticos horarios y resúmenes diarios."
+    - "Gestión de estado global con Zustand para actualizaciones rápidas y predecibles."
+    - "Stack: React, Next.js, TypeScript, Zustand, API REST."
+
+- name: "Multi Step Form"
+  url: "https://walkeralfaro.com/"
+  location: "Lima, Perú"
+  date: "Abr 2023 - Actualidad"
+  items:
+    - "Solución al reto Multi-step Form de Frontend Mentor, con navegación por pasos, validaciones y layouts responsive bajo un enfoque mobile-first."
+    - "Implementación de formularios con React Hook Form y validación de datos, estilizado con Tailwind CSS y shadcn/ui."
+    - "Stack: React, Next.js, TypeScript, React Hook Form, Tailwind CSS, shadcn/ui."
+
+- name: "URL Shortener"
+  url: "https://walkeralfaro.com/"
+  location: "Lima, Perú"
+  date: "Abr 2023 - Actualidad"
+  items:
+    - "Aplicación full-stack para el acortamiento de URLs con backend propio y persistencia de enlaces en MongoDB."
+    - "Implementación de validaciones con Zod, copiado al portapapeles y diseño responsive, sin depender de servicios externos de acortamiento."
+    - "Stack: Next.js, TypeScript, Node.js, MongoDB, Mongoose, Zod."

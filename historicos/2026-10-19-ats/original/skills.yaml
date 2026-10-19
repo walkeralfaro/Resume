@@ -1,0 +1,39 @@
+- category: "Frontend"
+  skills:
+    - "React"
+    - "Next.js"
+    - "TypeScript"
+    - "JavaScript"
+    - "TailwindCSS"
+    - "Shadcn/ui"
+    - "Zustand"
+    - "React Hook Form"
+    - "Alpine.js"
+    - "Bootstrap"
+
+- category: "Backend"
+  skills:
+    - "Node.js"
+    - "NestJS"
+    - "Laravel"
+    - "PHP"
+    - "Java"
+    - "Spring Boot"
+    - "Express"
+
+- category: "Bases de Datos"
+  skills:
+    - "MongoDB"
+    - "MySQL"
+    - "PostgreSQL"
+    - "Prisma"
+    - "Sequelize"
+    - "Mongoose"
+
+- category: "Herramientas"
+  skills:
+    - "Git"
+    - "Docker"
+    - "Figma"
+    - "Vite"
+    - "Docusaurus"

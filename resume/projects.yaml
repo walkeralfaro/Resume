@@ -1,0 +1,49 @@
+- project: "Portfolio Profesional"
+  organisation: "Proyecto personal"
+  location: "Lima, Perú"
+  dates: "Abr 2023 - Actualidad"
+  bullets:
+    - "Diseño y desarrollo de un portfolio web para la presentación de proyectos frontend y full-stack, con enfoque en rendimiento, accesibilidad y arquitectura escalable."
+    - "Implementación con Next.js, React, TypeScript y Tailwind CSS, aplicando buenas prácticas de UI/UX y componentes reutilizables."
+  techSkills: "Next.js, React, TypeScript, Tailwind CSS."
+  link: "https://walkeralfaro.com/"
+
+- project: "REST Countries Explorer"
+  organisation: "Proyecto personal"
+  location: "Lima, Perú"
+  dates: "Abr 2023 - Actualidad"
+  bullets:
+    - "Aplicación web responsive que consume la API REST Countries para buscar y filtrar países por nombre o región."
+    - "Implementación de tema claro/oscuro, vistas de detalle y una interfaz accesible con React, Next.js y TypeScript."
+  techSkills: "React, Next.js, TypeScript, API REST, Tailwind CSS."
+  link: "https://walkeralfaro.com/"
+
+- project: "Weather Dashboard"
+  organisation: "Proyecto personal"
+  location: "Lima, Perú"
+  dates: "Abr 2023 - Actualidad"
+  bullets:
+    - "Dashboard meteorológico que consume las APIs Open-Meteo y Geocoding para mostrar condiciones en tiempo real, pronósticos horarios y resúmenes diarios."
+    - "Gestión de estado global con Zustand para actualizaciones rápidas y predecibles."
+  techSkills: "React, Next.js, TypeScript, Zustand, API REST."
+  link: "https://walkeralfaro.com/"
+
+- project: "Multi Step Form"
+  organisation: "Proyecto personal"
+  location: "Lima, Perú"
+  dates: "Abr 2023 - Actualidad"
+  bullets:
+    - "Solución al reto Multi-step Form de Frontend Mentor, con navegación por pasos, validaciones y layouts responsive bajo un enfoque mobile-first."
+    - "Implementación de formularios con React Hook Form y validación de datos, estilizado con Tailwind CSS y shadcn/ui."
+  techSkills: "React, Next.js, TypeScript, React Hook Form, Tailwind CSS, shadcn/ui."
+  link: "https://walkeralfaro.com/"
+
+- project: "URL Shortener"
+  organisation: "Proyecto personal"
+  location: "Lima, Perú"
+  dates: "Abr 2023 - Actualidad"
+  bullets:
+    - "Aplicación full-stack para el acortamiento de URLs con backend propio y persistencia de enlaces en MongoDB."
+    - "Implementación de validaciones con Zod, copiado al portapapeles y diseño responsive, sin depender de servicios externos de acortamiento."
+  techSkills: "Next.js, TypeScript, Node.js, MongoDB, Mongoose, Zod."
+  link: "https://walkeralfaro.com/"

@@ -1,0 +1,39 @@
+- title: "Consultor Full-Stack"
+  organization: "Independiente"
+  location: "Lima, Perú"
+  date: "Feb 2025 — Actualidad"
+  items:
+    - "Desarrollo de aplicaciones web Full-Stack utilizando React, Next.js, Node.js y NestJS."
+    - "Especialización en React con uso avanzado de Hooks y creación de Hooks personalizados. Implementación de enrutamiento con React Router v7 y consumo de APIs HTTP."
+    - "Desarrollo con Next.js 16.0.5 (última versión), integrando TypeScript, Zod para validación de tipos, y Zustand para manejo de estado. Implementación del App Router, Server Actions, Server Components y rutas dinámicas."
+    - "Construcción de interfaces modernas y responsivas bajo el enfoque Mobile-First, empleando Tailwind CSS y componentes Headless como Shadcn."
+
+- title: "Desarrollador Web"
+  organization: "GI Administradora de Negocios e Inversiones S.A.C."
+  location: "Lima, Perú"
+  date: "May 2024 — Dic 2024"
+  items:
+    - "Diseñé y desarrollé interfaces intuitivas aplicando principios de UI/UX para una experiencia optimizada en el proyecto Puja Inmobiliaria."
+    - "Gestioné requerimientos técnicos y funcionales con usuarios, asegurando el alineamiento con los objetivos del proyecto."
+    - "Implementé el frontend completo con Alpine.js, Blade, Bootstrap y Swiper, desarrollando componentes dinámicos y reutilizables."
+    - "Diseñé la base de datos en MySQL, definiendo relaciones entre tablas y optimizando consultas con Eloquent ORM."
+    - "Desarrollé el backend en Laravel y PHP, implementando modelos, controladores y componentes reutilizables."
+    - "Configuré un panel administrativo con Filament para la gestión eficiente de recursos."
+    - "Documenté la plataforma con Docusaurus, incluyendo manuales técnicos y funcionales para usuarios y desarrolladores."
+
+- title: "Coordinador de Proyectos"
+  organization: "Intellisoft S.A."
+  location: "Lima, Perú"
+  date: "Nov 2017 — Jul 2019"
+  items:
+    - "Gestión y coordinación de proyectos relacionados con TI para empresas privadas y estatales."
+    - "Responsable de las operaciones de mantenimiento, responsable directo de coordinar la labor diaria de más de 15 colaboradores."
+
+- title: "Gerente de Proyectos"
+  organization: "Sociedad Inducontrol Ingeniería S.A.C."
+  location: "Lima, Perú"
+  date: "Sept 2014 — Sept 2015"
+  items:
+    - "Responsable del área de proyectos encargado del desarrollo de soluciones en automatización industrial en diversos rubros como Data Centers, Cementeras, Mineras, etc."
+    - "Responsable del cierre de proyectos, búsqueda activa de nuevas oportunidades."
+    - "Responsable de capacitaciones al área de proyectos, implementando un sistema de mejoras de habilidades técnicas de los ingenieros del área."

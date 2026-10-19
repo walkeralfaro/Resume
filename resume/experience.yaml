@@ -1,0 +1,40 @@
+- position: "Consultor Full-Stack"
+  organisation: "Independiente"
+  location: "Lima, Perú"
+  dates: "Feb 2025 - Actualidad"
+  bullets:
+    - "Desarrollo de aplicaciones web full-stack con React, Next.js, Node.js y NestJS, cubriendo el ciclo completo: levantamiento de requerimientos, diseño, implementación y despliegue."
+    - "Implementación de interfaces con React, Hooks personalizados, React Router v7 y consumo de APIs REST, priorizando accesibilidad, rendimiento y diseño responsive."
+    - "Construcción de aplicaciones con Next.js (App Router), Server Actions, Server Components, rutas dinámicas, TypeScript, Zod y Zustand."
+    - "Desarrollo de interfaces mobile-first con Tailwind CSS, shadcn/ui y componentes headless reutilizables."
+    - "Documentación técnica y aplicación de buenas prácticas de arquitectura, calidad de código y experiencia de usuario."
+
+- position: "Desarrollador Web"
+  organisation: "GI Administradora de Negocios e Inversiones S.A.C."
+  location: "Lima, Perú"
+  dates: "May 2024 - Dic 2024"
+  bullets:
+    - "Desarrollo del frontend del proyecto Puja Inmobiliaria con Alpine.js, Blade, Bootstrap y Swiper, creando componentes dinámicos y reutilizables."
+    - "Diseño de interfaces UI/UX intuitivas y responsive, alineadas con los objetivos del negocio y las necesidades de los usuarios."
+    - "Gestión de requerimientos técnicos y funcionales con usuarios y áreas involucradas, asegurando el alcance y la priorización del proyecto."
+    - "Diseño y optimización de la base de datos MySQL, definiendo relaciones entre tablas y consultas eficientes con Eloquent ORM."
+    - "Desarrollo del backend con Laravel y PHP, implementando modelos, controladores y componentes reutilizables."
+    - "Implementación de un panel administrativo con Filament para la gestión eficiente de recursos."
+    - "Documentación técnica y funcional de la plataforma con Docusaurus, dirigida a usuarios y desarrolladores."
+
+- position: "Coordinador de Proyectos TI"
+  organisation: "Intellisoft S.A."
+  location: "Lima, Perú"
+  dates: "Nov 2017 - Jul 2019"
+  bullets:
+    - "Coordinación de proyectos de TI para empresas de los sectores privado y estatal, gestionando alcance, cronograma y recursos."
+    - "Liderazgo de un equipo de más de 15 colaboradores en las operaciones de mantenimiento, coordinando la labor diaria y asegurando la continuidad operativa."
+
+- position: "Gerente de Proyectos"
+  organisation: "Sociedad Inducontrol Ingeniería S.A.C."
+  location: "Lima, Perú"
+  dates: "Sep 2014 - Sep 2015"
+  bullets:
+    - "Dirección del área de proyectos de automatización industrial en sectores como data centers, cementeras y minería."
+    - "Gestión del cierre de proyectos y búsqueda activa de nuevas oportunidades de negocio."
+    - "Diseño e implementación de un plan de capacitación técnica para ingenieros del área, fortaleciendo sus competencias técnicas."

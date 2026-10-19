@@ -1,0 +1,10 @@
+- name: "Portfolio"
+  url: "https://walkeralfaro.com/"
+  location: "Lima, Perú"
+  date: "Abr. 2023 — actualidad"
+  items:
+    - "Portfolio personal que reúne proyectos frontend y full-stack, enfocados en rendimiento, accesibilidad y diseño moderno. Desarrollado con Next.js, aplicando principios de arquitectura escalable y buenas prácticas de UI/UX."
+    - "REST Countries Explorer: Aplicación responsive construida con Next.js que consume la API REST Countries. Permite filtrar países por nombre o región, alternar temas (light/dark) y visualizar información detallada con una interfaz clara y accesible."
+    - "Weather Dashboard: Dashboard meteorológico moderno que consume las APIs Open-Meteo y Geocoding. Muestra condiciones en tiempo real, pronósticos horarios y resúmenes diarios. Manejo de estado global con Zustand para actualizaciones rápidas y predecibles."
+    - "Multi Step Form: Solución al challenge Multi-step Form de Frontend Mentor, desarrollada con Next.js, React y TypeScript bajo un enfoque mobile-first. Incluye validaciones, navegación por pasos, layouts responsivos y manejo de formularios con React Hook Form, estilizado con TailwindCSS y Shadcn/ui."
+    - "URL Shortener: Aplicación full-stack para acortamiento de URLs, desarrollada con Next.js y un backend propio. Implementa persistencia de enlaces con MongoDB y Mongoose, validaciones con Zod, copiado al portapapeles y diseño responsive, sin depender de servicios externos de acortamiento."

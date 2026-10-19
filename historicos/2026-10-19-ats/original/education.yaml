@@ -1,0 +1,15 @@
+- degree: "Desarrollador Web - Java"
+  institution: "Alura ONE - Oracle Next Education"
+  location: "Lima, Perú"
+  date: "Ene 2024 — Jul 2024"
+  items:
+    - "Participación en el Grupo 6 del programa de formación en desarrollo web y especialización en Java con Spring Boot."
+    - "Desarrollo de aplicaciones web utilizando Java, Spring Boot, MySQL, y herramientas modernas para la gestión de APIs RESTful."
+    - "Resolución de desafíos prácticos y creación de proyectos aplicando buenas prácticas de programación y diseño de software."
+
+- degree: "Titulado en Ingeniería Electrónica"
+  institution: "Universidad Nacional del Callao"
+  location: "Callao, Perú"
+  date: "Mar 2006 — Jun 2011"
+  items:
+    - "Especialidad en Automatización y Control Industrial. Graduado en el quinto superior."

@@ -1,0 +1,415 @@
+/* Resume styles — ported from the russell LaTeX template's palette, element
+   styles, and A4 geometry. Screen preview is A4; print rules live at the end. */
+
+/* ------------------------------------------------------------------ Fonts */
+
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* --------------------------------------------------------------- Variables */
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --darkgray: #333333;
+  --gray: #5d5d5d;
+  --lightgray: #999999;
+
+  --darktext: #414141;
+  --text: var(--darkgray);
+  --graytext: var(--gray);
+  --lighttext: var(--lightgray);
+  --sectiondivider: var(--gray);
+
+  /* russell-* palette from the original template. --russell is overridden by
+     the build from data.settings.highlight. */
+  --russell: #000000;
+  --russell-emerald: #00a388;
+  --russell-skyblue: #0395de;
+  --russell-red: #dc3522;
+  --russell-purple: #a32cc4;
+  --russell-pink: #ef4089;
+  --russell-orange: #ff6138;
+  --russell-nephritis: #27ae60;
+  --russell-concrete: #95a5a6;
+  --russell-darknight: #131a28;
+  --russell-black: #000000;
+}
+
+/* ------------------------------------------------------------------- Base */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 11pt;
+}
+
+body {
+  margin: 0;
+  background: #e9ecef;
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cv-page {
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: 2rem auto;
+  padding: 0.8cm 1.4cm 1.8cm;
+  background: var(--white);
+  box-shadow: 0 2px 12px rgb(0 0 0 / 18%);
+}
+
+/* ----------------------------------------------------------------- Header */
+
+.cv-header {
+  margin-bottom: 2mm;
+  text-align: center;
+}
+
+.cv-name {
+  margin: 0;
+  color: var(--text);
+  font-size: 20pt;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.cv-position {
+  margin: 0.4mm 0 0;
+  color: var(--russell);
+  font-size: 7.6pt;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.cv-address {
+  margin: -0.5mm 0 0;
+  color: var(--lighttext);
+  font-size: 8pt;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.cv-contact {
+  margin: 6mm 0 0;
+  padding: 0;
+  color: var(--text);
+  font-size: 6.8pt;
+  font-weight: 400;
+  list-style: none;
+}
+
+.cv-contact li {
+  display: inline;
+}
+
+.cv-contact li + li::before {
+  margin: 0 0.8em;
+  color: var(--lighttext);
+  content: "|";
+}
+
+.cv-contact svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
+  fill: currentcolor;
+  vertical-align: -0.15em;
+}
+
+.cv-photo {
+  float: right;
+  width: 2.4cm;
+  margin: 0 0 2mm 4mm;
+  border-radius: 50%;
+}
+
+/* --------------------------------------------------------------- Sections */
+
+.cv-section {
+  margin-top: 3mm;
+}
+
+.cv-section-title {
+  margin: 0 0 2.5mm;
+  border-bottom: 0.9pt solid var(--sectiondivider);
+  color: var(--text);
+  font-size: 16pt;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.cv-section-accent {
+  color: var(--russell);
+}
+
+.cv-subsection {
+  margin: 2mm 0 1mm;
+  color: var(--text);
+  font-size: 12pt;
+  font-variant: small-caps;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.cv-paragraph {
+  margin: 0 0 2mm;
+  font-size: 9pt;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* ---------------------------------------------------------------- Entries */
+
+.cv-entry {
+  margin: 0 0 2.5mm;
+  break-inside: avoid;
+}
+
+.cv-entry-head {
+  display: flex;
+  align-items: baseline;
+  gap: 1ex;
+  justify-content: space-between;
+}
+
+.cv-entry-title {
+  color: var(--darktext);
+  font-size: 10pt;
+  font-weight: 700;
+}
+
+.cv-entry-location {
+  color: var(--russell);
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: 300;
+  text-align: right;
+}
+
+.cv-entry-position {
+  color: var(--graytext);
+  font-size: 9pt;
+  font-weight: 400;
+}
+
+.cv-entry-date {
+  color: var(--graytext);
+  font-size: 8pt;
+  font-style: italic;
+  font-weight: 300;
+  text-align: right;
+}
+
+.cv-items {
+  margin: 1mm 0 0;
+  padding-left: 2ex;
+  color: var(--text);
+  font-size: 9pt;
+  font-weight: 300;
+  orphans: 3;
+  widows: 3;
+}
+
+.cv-items li {
+  margin: 0 0 0.4mm;
+}
+
+.cv-items strong {
+  color: var(--darktext);
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------ Label/value */
+
+.cv-rows {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: 1ex;
+  row-gap: 1mm;
+  margin: 0;
+}
+
+.cv-row {
+  display: contents;
+  font-size: 9pt;
+}
+
+.cv-row-label {
+  color: var(--darktext);
+  font-size: 10pt;
+  font-weight: 700;
+  text-align: left;
+}
+
+.cv-row-value {
+  color: var(--text);
+  font-weight: 300;
+}
+
+.cv-row-value a {
+  color: var(--russell);
+}
+
+/* ---------------------------------------------------------------- Honors */
+
+.cv-honor {
+  display: grid;
+  grid-template-columns: 1.5cm 1fr 2.5cm;
+  align-items: baseline;
+  gap: 1ex;
+  margin: 0 0 0.8mm;
+  break-inside: avoid;
+  font-size: 9pt;
+}
+
+.cv-honor-date {
+  color: var(--graytext);
+  font-weight: 400;
+}
+
+.cv-honor-award {
+  color: var(--darktext);
+  font-weight: 700;
+}
+
+.cv-honor-event {
+  color: var(--graytext);
+  font-weight: 300;
+}
+
+.cv-honor-location {
+  color: var(--russell);
+  font-style: italic;
+  font-weight: 300;
+  text-align: right;
+}
+
+/* ---------------------------------------------------------- Publications */
+
+.cv-publication {
+  margin: 0 0 2mm;
+  break-inside: avoid;
+}
+
+.cv-pub-title,
+.cv-pub-authors {
+  margin: 0;
+  color: var(--text);
+  font-size: 9pt;
+  font-weight: 300;
+}
+
+.cv-pub-venue {
+  margin: 0;
+  color: var(--graytext);
+  font-size: 8pt;
+  font-weight: 300;
+}
+
+/* ------------------------------------------------------------------ Print */
+
+@page {
+  size: A4;
+  margin: 8mm 14mm 18mm;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .cv-page {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    zoom: 1;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .cv-section-title,
+  .cv-subsection {
+    break-after: avoid;
+  }
+
+  .cv-entry,
+  .cv-publication,
+  .cv-honor {
+    break-inside: avoid;
+  }
+}
+
+@media screen and (width <= 22cm) {
+  .cv-page {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    box-shadow: none;
+  }
+}
+
+/* Screen preview: the A4 sheet is 21cm (~794px at 100% browser zoom), which
+   looks small on desktop. Scale it 25% without affecting the printed A4
+   output. The rule only applies when the viewport can fit the scaled sheet. */
+@media screen and (min-width: 27cm) {
+  .cv-page {
+    zoom: 1.25;
+  }
+}
