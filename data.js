@@ -44,11 +44,11 @@ export default {
       "location": "Lima, Perú",
       "dates": "Feb 2025 - Actualidad",
       "bullets": [
-        "Desarrollo de aplicaciones web full-stack con React 19, Next.js 16 (App Router), TypeScript, Server Actions, Astro, Vite, Tailwind CSS y despliegue en Vercel.",
+        "Desarrollo de aplicaciones web full-stack con React 19, Next.js 16 (App Router), TypeScript, Astro, Vite y Tailwind CSS.",
         "Integración de servidores MCP (Model Context Protocol) en aplicaciones web para exponer tools CRUD a agentes de IA, compartiendo la misma capa de negocio y persistencia con Prisma, SQLite y validación Zod.",
         "Implementación de autenticación con tokens de acceso por usuario, hash SHA-256, expiración a 90 días y revocación inmediata, aplicando buenas prácticas de seguridad.",
         "Uso de agentes de IA para el desarrollo de aplicaciones web y automatización de flujos, junto con Prompt Engineering para generar prompts estructurados de 7 líneas, catálogos de estilos y filtros anti-tópicos.",
-        "Desarrollo de interfaces con Zustand, React Router v7, localStorage, edición inline, vista previa en vivo, modo oscuro y layouts de impresión optimizados.",
+        "Desarrollo de interfaces con Zustand, React Router v7, localStorage, edición inline, vista previa en vivo, modo oscuro y layouts.",
         "Aseguramiento de calidad con pruebas unitarias, de integración y E2E mediante Vitest y Playwright, documentación de arquitectura interactiva y modelado de datos con Prisma y SQLite."
       ],
       "techSkills": "React, Next.js, TypeScript, JavaScript, Node.js, NestJS, Server Actions, Astro, Vite, Tailwind CSS, MCP (Model Context Protocol), Prisma, SQLite, PostgreSQL, MySQL, MongoDB, Zod, Zustand, React Router, Prompt Engineering, autenticación con tokens SHA-256, seguridad de aplicaciones, Vitest, Playwright, Vercel, Docker, Git.",
@@ -60,16 +60,16 @@ export default {
       "location": "Lima, Perú",
       "dates": "May 2024 - Dic 2024",
       "bullets": [
-        "Desarrollo del frontend del proyecto Puja Inmobiliaria con Alpine.js, Blade, Bootstrap y Swiper, creando componentes dinámicos y reutilizables.",
+        "Desarrollo del frontend del proyecto Puja Inmobiliaria con Laravel, PHP, Alpine.js, creando componentes dinámicos y reutilizables.",
         "Diseño de interfaces UI/UX intuitivas y responsive, alineadas con los objetivos del negocio y las necesidades de los usuarios.",
-        "Gestión de requerimientos técnicos y funcionales con usuarios y áreas involucradas, asegurando el alcance y la priorización del proyecto.",
+        "Gestión de requerimientos técnicos y funcionales con usuarios y áreas involucradas, asegurando el alcance.",
         "Diseño y optimización de la base de datos MySQL, definiendo relaciones entre tablas y consultas eficientes con Eloquent ORM.",
         "Desarrollo del backend con Laravel y PHP, implementando modelos, controladores y componentes reutilizables.",
         "Implementación de un panel administrativo con Filament para la gestión eficiente de recursos.",
         "Documentación técnica y funcional de la plataforma con Docusaurus, dirigida a usuarios y desarrolladores."
       ],
       "techSkills": "Alpine.js, Blade, Bootstrap, Swiper, UI/UX, diseño responsive, MySQL, Eloquent ORM, Laravel, PHP, Filament, Docusaurus, HTML5, CSS3, JavaScript, Git, documentación técnica.",
-      "softSkills": "Trabajo en equipo, comunicación, levantamiento de requerimientos, atención al detalle, orientación al usuario."
+      "softSkills": "Trabajo en equipo, comunicación, levantamiento de requerimientos, orientación al usuario."
     },
     {
       "position": "Coordinador de Proyectos TI",
@@ -77,15 +77,14 @@ export default {
       "location": "Lima, Perú",
       "dates": "Nov 2017 - Jul 2019",
       "bullets": [
-        "Gestión de proyectos de TI para clientes de los sectores privado y estatal, coordinando alcance, cronograma, recursos y equipos de trabajo.",
+        "Gestión de proyectos de TI para clientes de los sectores privado y estatal, coordinando alcance, cronograma y recursos.",
         "Liderazgo de más de 20 personas en la coordinación de proyectos, mantenimientos y operaciones de soporte técnico.",
         "Gestión del proyecto de implementación de puertas biométricas en el Aeropuerto Internacional Jorge Chávez.",
         "Gestión del proyecto de distribución, instalación y capacitación de servidores en 56 UGEL a nivel nacional.",
-        "Coordinación del mantenimiento y soporte de equipos de parqueo en más de 20 clientes y 40 playas de estacionamiento, con cobertura 24/7.",
-        "Gestión de horarios y actividades de más de 15 colaboradores de soporte y mantenimiento, asegurando la continuidad operativa."
+        "Coordinación del mantenimiento y soporte de equipos de parqueo en más de 20 clientes y 40 playas de estacionamiento."
       ],
-      "techSkills": "Gestión de proyectos TI, planificación de cronogramas, coordinación de recursos, liderazgo de equipos, mantenimiento preventivo y correctivo, soporte técnico 24/7, instalación y distribución de servidores, biometría, capacitación, atención a clientes.",
-      "softSkills": "Liderazgo, comunicación, organización, toma de decisiones, orientación a resultados, trabajo bajo presión."
+      "techSkills": "PMP, planificación de cronogramas, instalación y distribución de servidores, biometría, capacitación.",
+      "softSkills": "Liderazgo, comunicación, organización, toma de decisiones, orientación a resultados, atención al cliente."
     },
     {
       "position": "Ingeniero de Proyectos",
@@ -137,7 +136,7 @@ export default {
       "bullets": [
         "Desarrollo de una aplicación de gestión de tareas con arquitectura dual: interfaz en Next.js 16 (App Router, React 19 y Server Actions) y servidor MCP sobre SQLite, compartiendo la misma capa de negocio con Prisma y validación Zod.",
         "Implementación de 5 tools CRUD para agentes de IA, filtros por estado, búsqueda paginada y actualización automática de la fecha de culminación.",
-        "Gestión de tokens MCP por usuario con hash SHA-256, expiración a 90 días y revocación inmediata; autenticación con Better Auth.",
+        "Gestión de tokens MCP por usuario con hash SHA-256, revocación inmediata; autenticación con Better Auth.",
         "Cobertura con pruebas unitarias, de integración y E2E mediante Vitest y Playwright, además de documentación de arquitectura interactiva autocontenida."
       ],
       "techSkills": "Next.js 16, React 19, TypeScript, Server Actions, Prisma, SQLite, Zod, MCP (Model Context Protocol), agentes de IA, Tailwind CSS, Better Auth, Vitest, Playwright.",
@@ -162,8 +161,8 @@ export default {
       "location": "Lima, Perú",
       "dates": "Jul 2026",
       "bullets": [
-        "Desarrollo de una aplicación web 100% local para crear, organizar y administrar cheat sheets de atajos de teclado, sin backend ni registro.",
-        "Implementación de múltiples cheat sheets, edición inline, vista previa en vivo, modo oscuro automático y persistencia en localStorage.",
+        "Desarrollo de una aplicación web 100% local para crear, organizar y administrar cheat sheets de atajos de teclado.",
+        "Implementación de múltiples cheat sheets, edición inline, vista previa en vivo, modo oscuro y persistencia en localStorage.",
         "Vista de impresión optimizada para PDF en 2 columnas, construida con Astro, React, TypeScript y Tailwind CSS v4."
       ],
       "techSkills": "Astro, React, TypeScript, Tailwind CSS v4, localStorage, impresión PDF.",

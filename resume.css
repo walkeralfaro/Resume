@@ -113,7 +113,7 @@ a {
 /* ----------------------------------------------------------------- Header */
 
 .cv-header {
-  margin-bottom: 2mm;
+  margin-bottom: 6mm;
   text-align: center;
 }
 
@@ -143,7 +143,7 @@ a {
 }
 
 .cv-contact {
-  margin: 6mm 0 0;
+  margin: 4mm 0 0;
   padding: 0;
   color: var(--text);
   font-size: 6.8pt;

@@ -5,7 +5,7 @@
   bullets:
     - "Desarrollo de una aplicación de gestión de tareas con arquitectura dual: interfaz en Next.js 16 (App Router, React 19 y Server Actions) y servidor MCP sobre SQLite, compartiendo la misma capa de negocio con Prisma y validación Zod."
     - "Implementación de 5 tools CRUD para agentes de IA, filtros por estado, búsqueda paginada y actualización automática de la fecha de culminación."
-    - "Gestión de tokens MCP por usuario con hash SHA-256, expiración a 90 días y revocación inmediata; autenticación con Better Auth."
+    - "Gestión de tokens MCP por usuario con hash SHA-256, revocación inmediata; autenticación con Better Auth."
     - "Cobertura con pruebas unitarias, de integración y E2E mediante Vitest y Playwright, además de documentación de arquitectura interactiva autocontenida."
   techSkills: "Next.js 16, React 19, TypeScript, Server Actions, Prisma, SQLite, Zod, MCP (Model Context Protocol), agentes de IA, Tailwind CSS, Better Auth, Vitest, Playwright."
   link: "https://github.com/walkeralfaro/todo-mcp-dual"
@@ -26,8 +26,8 @@
   location: "Lima, Perú"
   dates: "Jul 2026"
   bullets:
-    - "Desarrollo de una aplicación web 100% local para crear, organizar y administrar cheat sheets de atajos de teclado, sin backend ni registro."
-    - "Implementación de múltiples cheat sheets, edición inline, vista previa en vivo, modo oscuro automático y persistencia en localStorage."
+    - "Desarrollo de una aplicación web 100% local para crear, organizar y administrar cheat sheets de atajos de teclado."
+    - "Implementación de múltiples cheat sheets, edición inline, vista previa en vivo, modo oscuro y persistencia en localStorage."
     - "Vista de impresión optimizada para PDF en 2 columnas, construida con Astro, React, TypeScript y Tailwind CSS v4."
   techSkills: "Astro, React, TypeScript, Tailwind CSS v4, localStorage, impresión PDF."
   link: "https://github.com/walkeralfaro/cheatsheet-editor-"
