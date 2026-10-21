@@ -1,23 +1,23 @@
 - category: "Frontend"
-  skills: "React, Next.js (App Router), TypeScript, JavaScript (ES6+), HTML5, CSS3, Astro, Tailwind CSS, shadcn/ui, Zustand, React Hook Form, React Router, Server Actions, Alpine.js, Bootstrap"
+  skills: "React 19, Next.js 16 (App Router), TypeScript, JavaScript (ES6+), HTML5, CSS3, Astro, Vite, Tailwind CSS, shadcn/ui, Zustand, React Router, React Hook Form, Server Actions, Alpine.js, Bootstrap, Swiper, UI/UX, diseño responsive, Mobile-first, Accesibilidad web (a11y)"
 
 - category: "Backend"
-  skills: "Node.js, NestJS, Express, Laravel, PHP, Java, Spring Boot, APIs REST, Zod, Better Auth"
+  skills: "Node.js, NestJS, Express, APIs REST, Laravel, PHP, Blade, Java, Spring Boot, Zod, Better Auth, autenticación con tokens, SHA-256, seguridad de aplicaciones"
 
 - category: "Bases de Datos"
-  skills: "PostgreSQL, MySQL, MongoDB, SQLite, Prisma, Sequelize, Mongoose, Eloquent ORM"
+  skills: "PostgreSQL, MySQL, MongoDB, SQLite, SQL, Prisma, Sequelize, Mongoose, Eloquent ORM"
 
 - category: "IA y Automatización"
-  skills: "MCP (Model Context Protocol), agentes de IA, Prompt Engineering, herramientas CRUD, automatización de flujos"
-
-- category: "Automatización Industrial"
-  skills: "DCS, SCADA, LabVIEW, InTouch, HMI, System Platform, ArchestrA, automatización Batch, control de procesos, monitoreo y supervisión"
+  skills: "MCP (Model Context Protocol), servidores MCP, agentes de IA, Prompt Engineering, herramientas CRUD, automatización de flujos"
 
 - category: "Testing y Calidad"
   skills: "Vitest, Playwright, pruebas unitarias, pruebas de integración, pruebas E2E, Clean Code, documentación técnica"
 
-- category: "Herramientas y DevOps"
-  skills: "Git, GitHub, Docker, Vite, Vercel, Figma, Docusaurus, Filament"
+- category: "DevOps y Herramientas"
+  skills: "Git, GitHub, Docker, Vercel, Vite, Figma, Filament, Docusaurus, impresión PDF"
 
-- category: "Competencias"
-  skills: "Diseño responsive, Mobile-first, Accesibilidad web (a11y), Arquitectura de software, Gestión de proyectos, Liderazgo de equipos, Comunicación técnica, Resolución de problemas"
+- category: "Automatización Industrial"
+  skills: "DCS (Sistemas de Control Distribuido), SCADA, LabVIEW, InTouch, HMI, System Platform, ArchestrA, automatización Batch, control de procesos, monitoreo y supervisión"
+
+- category: "Gestión de Proyectos y Competencias"
+  skills: "Gestión de proyectos TI, PMP, planificación de cronogramas, gestión de presupuesto, liderazgo de equipos, coordinación de stakeholders, levantamiento de requerimientos, instalación de servidores, capacitación técnica, biometría, arquitectura de software, comunicación técnica, resolución de problemas"

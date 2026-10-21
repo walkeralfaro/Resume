@@ -1,0 +1,12 @@
+# Secciones que se renderizan en index.html, en este orden.
+# Comenta o elimina una línea para ocultar esa sección.
+highlight: "russell-black"
+
+sections:
+  - "summary"
+  - "experience"
+  - "education"
+  - "projects"
+  - "skills"
+  - "courses"
+  - "languages"

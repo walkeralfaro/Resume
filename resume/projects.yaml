@@ -3,10 +3,10 @@
   location: "Lima, Perú"
   dates: "Oct 2026 - Actualidad"
   bullets:
-    - "Desarrollo de una aplicación de gestión de tareas con arquitectura dual: interfaz en Next.js 16 (App Router, React 19 y Server Actions) y servidor MCP sobre SQLite, compartiendo la misma capa de negocio con Prisma y validación Zod."
-    - "Implementación de 5 tools CRUD para agentes de IA, filtros por estado, búsqueda paginada y actualización automática de la fecha de culminación."
-    - "Gestión de tokens MCP por usuario con hash SHA-256, revocación inmediata; autenticación con Better Auth."
-    - "Cobertura con pruebas unitarias, de integración y E2E mediante Vitest y Playwright, además de documentación de arquitectura interactiva autocontenida."
+    - "Desarrollé una app de gestión de tareas con arquitectura dual: interfaz en Next.js 16 (App Router, React 19 y Server Actions) y servidor MCP sobre SQLite, con una capa de negocio compartida con Prisma y Zod."
+    - "Implementé 5 tools CRUD para agentes de IA, con filtros por estado, búsqueda paginada y actualización automática de la fecha de culminación."
+    - "Gestioné tokens MCP por usuario con hash SHA-256 y revocación inmediata, e integré autenticación con Better Auth."
+    - "Cubrí la aplicación con pruebas unitarias, de integración y E2E mediante Vitest y Playwright, y documenté la arquitectura en una guía interactiva autocontenida."
   techSkills: "Next.js 16, React 19, TypeScript, Server Actions, Prisma, SQLite, Zod, MCP (Model Context Protocol), agentes de IA, Tailwind CSS, Better Auth, Vitest, Playwright."
   link: "https://github.com/walkeralfaro/todo-mcp-dual"
 
@@ -15,10 +15,10 @@
   location: "Lima, Perú"
   dates: "Oct 2026"
   bullets:
-    - "Desarrollo de una aplicación web con cuestionario guiado que genera prompts optimizados de 7 líneas para generadores de imágenes con IA (ChatGPT Images, DALL-E y Midjourney)."
-    - "Implementación de un motor de Prompt Engineering con catálogo de 17 estilos, filtros anti-tópicos por 7 temáticas, vista previa en vivo y detector de adjetivos vacíos."
-    - "Gestión de múltiples proyectos, borradores, historial e idioma ES/EN con Zustand y persistencia en localStorage; exportación a Markdown y tema claro/oscuro."
-  techSkills: "React 19, TypeScript, Vite 8, React Router v7, Zustand, Tailwind CSS v4, Prompt Engineering, Lucide React, localStorage."
+    - "Desarrollé una aplicación web con cuestionario guiado que genera prompts optimizados de 7 líneas para generadores de imágenes con IA (ChatGPT Images, DALL-E y Midjourney)."
+    - "Implementé un motor de Prompt Engineering con catálogo de 17 estilos, filtros anti-tópicos por 7 temáticas, vista previa en vivo y detector de adjetivos vacíos."
+    - "Gestioné múltiples proyectos, borradores, historial e idioma ES/EN con Zustand y localStorage, añadiendo exportación a Markdown y tema claro/oscuro."
+  techSkills: "React 19, TypeScript, Vite, React Router v7, Zustand, Tailwind CSS, Prompt Engineering, Lucide React, localStorage."
   link: "https://github.com/walkeralfaro/image-prompt"
 
 - project: "Cheatsheet Editor"
@@ -26,10 +26,10 @@
   location: "Lima, Perú"
   dates: "Jul 2026"
   bullets:
-    - "Desarrollo de una aplicación web 100% local para crear, organizar y administrar cheat sheets de atajos de teclado."
-    - "Implementación de múltiples cheat sheets, edición inline, vista previa en vivo, modo oscuro y persistencia en localStorage."
-    - "Vista de impresión optimizada para PDF en 2 columnas, construida con Astro, React, TypeScript y Tailwind CSS v4."
-  techSkills: "Astro, React, TypeScript, Tailwind CSS v4, localStorage, impresión PDF."
+    - "Desarrollé una aplicación web 100% local para crear, organizar y administrar cheat sheets de atajos de teclado, sin backend ni dependencias externas."
+    - "Implementé múltiples cheat sheets, edición inline, vista previa en vivo, modo oscuro y persistencia en localStorage."
+    - "Optimicé la vista de impresión a PDF en 2 columnas con Astro, React, TypeScript y Tailwind CSS."
+  techSkills: "Astro, React, TypeScript, Tailwind CSS, localStorage, impresión PDF."
   link: "https://github.com/walkeralfaro/cheatsheet-editor-"
 
 - project: "Portfolio Profesional"
@@ -37,8 +37,8 @@
   location: "Lima, Perú"
   dates: "Abr 2023 - Actualidad"
   bullets:
-    - "Diseño y desarrollo de un portfolio web para la presentación de proyectos frontend y full-stack, con enfoque en rendimiento, accesibilidad y arquitectura escalable."
-    - "Implementación con Next.js, React, TypeScript y Tailwind CSS, aplicando buenas prácticas de UI/UX y componentes reutilizables."
+    - "Diseñé y desarrollé un portfolio web para presentar proyectos frontend y full-stack, con enfoque en rendimiento, accesibilidad y arquitectura escalable."
+    - "Implementé el sitio con Next.js, React, TypeScript y Tailwind CSS, aplicando buenas prácticas de UI/UX y componentes reutilizables, con puntuaciones de ~95/100 en Lighthouse."
   techSkills: "Next.js, React, TypeScript, Tailwind CSS."
   link: "https://walkeralfaro.com/"
 
@@ -47,8 +47,8 @@
   location: "Lima, Perú"
   dates: "Abr 2023 - May 2023"
   bullets:
-    - "Aplicación web responsive que consume la API REST Countries para buscar y filtrar países por nombre o región."
-    - "Implementación de tema claro/oscuro, vistas de detalle y una interfaz accesible con React, Next.js y TypeScript."
+    - "Desarrollé una aplicación web responsive que consume la API REST Countries para buscar y filtrar países por nombre o región."
+    - "Implementé tema claro/oscuro, vistas de detalle y una interfaz accesible con React, Next.js y TypeScript."
   techSkills: "React, Next.js, TypeScript, API REST, Tailwind CSS."
   link: "https://walkeralfaro.com/"
 
@@ -61,7 +61,7 @@
 #     - "Gestión de estado global con Zustand para actualizaciones rápidas y predecibles."
 #   techSkills: "React, Next.js, TypeScript, Zustand, API REST."
 #   link: "https://walkeralfaro.com/"
-# 
+#
 # - project: "Multi Step Form"
 #   organisation: "Proyecto personal"
 #   location: "Lima, Perú"
@@ -71,7 +71,7 @@
 #     - "Implementación de formularios con React Hook Form y validación de datos, estilizado con Tailwind CSS y shadcn/ui."
 #   techSkills: "React, Next.js, TypeScript, React Hook Form, Tailwind CSS, shadcn/ui."
 #   link: "https://walkeralfaro.com/"
-# 
+#
 # - project: "URL Shortener"
 #   organisation: "Proyecto personal"
 #   location: "Lima, Perú"

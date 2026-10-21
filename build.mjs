@@ -284,7 +284,7 @@ ${groups
 }
 
 const renderers = {
-  summary: (value) => paragraphSection("Personal Profile", value),
+  summary: (value) => paragraphSection("Professional Summary", value),
   education: (value) =>
     entriesSection("Education", value, (item) => ({
       title: item.institution,

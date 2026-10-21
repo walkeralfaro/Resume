@@ -135,7 +135,10 @@ Comenta o elimina una sección de `sections` para ocultarla.
 
 ## Histórico
 
-`historicos/2026-10-19-ats/` es un snapshot fechado con el esquema anterior (`person.yaml`, `social.yaml`, `rows`, `date`, `items`). Se conserva como archivo histórico; no es la fuente actual ni debe actualizarse durante cambios normales de contenido.
+- `historicos/2026-10-19-ats/`: snapshot con el esquema anterior (`person.yaml`, `social.yaml`, `rows`, `date`, `items`).
+- `historicos/2026-10-21-pre-ats/`: copia de `resume/` previa a la optimización ATS del 2026-10-21.
+
+Ambos se conservan como archivo histórico; no son la fuente actual ni deben actualizarse durante cambios normales de contenido.
 
 ## Créditos
 
