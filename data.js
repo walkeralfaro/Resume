@@ -71,6 +71,36 @@ export default {
       "softSkills": "Trabajo en equipo, comunicación, levantamiento de requerimientos, orientación al usuario."
     },
     {
+      "position": "Desarrollador Web",
+      "organisation": "Independiente",
+      "location": "Lima, Perú",
+      "dates": "Ago 2021 - Dic 2023",
+      "bullets": [
+        "Desarrollé sitios web y sistemas de gestión para pequeñas empresas con PHP, Laravel, CodeIgniter y MySQL, cubriendo requerimientos, diseño, desarrollo y puesta en producción.",
+        "Implementé paneles administrativos y catálogos con Laravel, Blade, Bootstrap y jQuery, permitiendo que los clientes gestionaran su contenido y operaciones sin depender de un desarrollador.",
+        "Desarrollé y personalicé sitios WordPress con temas y plugins a medida, optimizando rendimiento, SEO on-page y seguridad (roles, backups y HTTPS).",
+        "Integré pasarelas de pago (Culqi y Mercado Pago), formularios, correo transaccional y facturación electrónica SUNAT con Greenter y Nubefact.",
+        "Desplegué aplicaciones en hosting compartido y VPS con cPanel, configurando dominios, DNS, certificados SSL y respaldos; documenté la entrega y capacité a los usuarios."
+      ],
+      "techSkills": "PHP, Laravel, CodeIgniter, MySQL, WordPress, Blade, Bootstrap, jQuery, JavaScript, HTML5, CSS3, API REST, Greenter, Nubefact, Culqi, Mercado Pago, SUNAT, cPanel, DNS, SSL, SEO on-page, Git.",
+      "softSkills": "Autonomía, comunicación con el cliente, levantamiento de requerimientos, gestión del tiempo, orientación a resultados."
+    },
+    {
+      "position": "Coordinador de Proyectos de Conectividad Rural",
+      "organisation": "Independiente",
+      "location": "Lima, Perú",
+      "dates": "Jul 2020 - Jul 2021",
+      "bullets": [
+        "Coordiné la instalación de internet satelital (VSAT) y redes Wi-Fi en colegios rurales, articulando con UGEL y DRE el acceso a las sedes y la ejecución dentro del calendario escolar.",
+        "Planifiqué cuadrillas, rutas logísticas y cronogramas para zonas de difícil acceso, asegurando el traslado de antenas, equipos de red y respaldo eléctrico (UPS) hasta cada institución educativa.",
+        "Supervisé la puesta en marcha y las pruebas de conectividad (velocidad, cobertura Wi-Fi y continuidad del servicio), documentando actas de conformidad y reportes de avance por sede.",
+        "Coordiné la capacitación de docentes y directores en el uso del servicio y el reporte de incidencias, mejorando la continuidad operativa de la conexión.",
+        "Gestioné proveedores de telecomunicaciones, transporte y soporte técnico, controlando costos y tiempos de atención de incidencias en campo."
+      ],
+      "techSkills": "Gestión de proyectos, conectividad rural, internet satelital, VSAT, redes Wi-Fi, instalación de antenas, UPS, pruebas de conectividad, logística en zonas rurales, coordinación con UGEL y DRE, capacitación docente, supervisión de instalaciones, reportes de avance.",
+      "softSkills": "Liderazgo de equipos en campo, comunicación, organización, resolución de problemas, adaptabilidad."
+    },
+    {
       "position": "Coordinador de Proyectos TI",
       "organisation": "Intellisoft S.A.",
       "location": "Lima, Perú",
@@ -168,18 +198,6 @@ export default {
       "link": "https://github.com/walkeralfaro/cheatsheet-editor-"
     },
     {
-      "project": "Portfolio Profesional",
-      "organisation": "Proyecto personal",
-      "location": "Lima, Perú",
-      "dates": "Abr 2023 - Actualidad",
-      "bullets": [
-        "Diseñé y desarrollé un portfolio web para presentar proyectos frontend y full-stack, con enfoque en rendimiento, accesibilidad y arquitectura escalable.",
-        "Implementé el sitio con Next.js, React, TypeScript y Tailwind CSS, aplicando buenas prácticas de UI/UX y componentes reutilizables, con puntuaciones de ~95/100 en Lighthouse."
-      ],
-      "techSkills": "Next.js, React, TypeScript, Tailwind CSS.",
-      "link": "https://walkeralfaro.com/"
-    },
-    {
       "project": "REST Countries Explorer",
       "organisation": "Proyecto personal",
       "location": "Lima, Perú",
@@ -194,28 +212,28 @@ export default {
   ],
   "skills": [
     {
+      "category": "IA, Agentes y Automatización",
+      "skills": "MCP (Model Context Protocol), servidores MCP, agentes de IA, Prompt Engineering, Context Engineering, Spec-Driven Development (SDD), TDD, BDD, flujos completos de desarrollo asistidos por IA (especificaciones y análisis de requerimientos, diseño de arquitectura, implementación, depuración, refactorización, revisión de código, testing, documentación y despliegue), generación y automatización de pruebas, verificación de código generado, reglas y convenciones para agentes (AGENTS.md), herramientas CRUD, automatización de flujos"
+    },
+    {
       "category": "Frontend",
       "skills": "React 19, Next.js 16 (App Router), TypeScript, JavaScript (ES6+), HTML5, CSS3, Astro, Vite, Tailwind CSS, shadcn/ui, Zustand, React Router, React Hook Form, Server Actions, Alpine.js, Bootstrap, Swiper, UI/UX, diseño responsive, Mobile-first, Accesibilidad web (a11y)"
     },
     {
       "category": "Backend",
-      "skills": "Node.js, NestJS, Express, APIs REST, Laravel, PHP, Blade, Java, Spring Boot, Zod, Better Auth, autenticación con tokens, SHA-256, seguridad de aplicaciones"
+      "skills": "Node.js, NestJS, Express, APIs REST, PHP, Laravel, CodeIgniter, WordPress, Blade, Java, Spring Boot, Greenter, Nubefact, facturación electrónica SUNAT, Culqi, Mercado Pago, Zod, Better Auth, autenticación con tokens, SHA-256, seguridad de aplicaciones"
     },
     {
       "category": "Bases de Datos",
       "skills": "PostgreSQL, MySQL, MongoDB, SQLite, SQL, Prisma, Sequelize, Mongoose, Eloquent ORM"
     },
     {
-      "category": "IA y Automatización",
-      "skills": "MCP (Model Context Protocol), servidores MCP, agentes de IA, Prompt Engineering, herramientas CRUD, automatización de flujos"
-    },
-    {
       "category": "Testing y Calidad",
-      "skills": "Vitest, Playwright, pruebas unitarias, pruebas de integración, pruebas E2E, Clean Code, documentación técnica"
+      "skills": "Vitest, Playwright, pruebas unitarias, pruebas de integración, pruebas E2E, TDD, BDD, Clean Code, code review, documentación técnica"
     },
     {
       "category": "DevOps y Herramientas",
-      "skills": "Git, GitHub, Docker, Vercel, Vite, Figma, Filament, Docusaurus, impresión PDF"
+      "skills": "Git, GitHub, Docker, Vercel, Vite, cPanel, DNS, SSL, Figma, Filament, Docusaurus, impresión PDF"
     },
     {
       "category": "Automatización Industrial",
@@ -223,7 +241,7 @@ export default {
     },
     {
       "category": "Gestión de Proyectos y Competencias",
-      "skills": "Gestión de proyectos TI, PMP, planificación de cronogramas, gestión de presupuesto, liderazgo de equipos, coordinación de stakeholders, levantamiento de requerimientos, instalación de servidores, capacitación técnica, biometría, arquitectura de software, comunicación técnica, resolución de problemas"
+      "skills": "Gestión de proyectos TI, PMP, planificación de cronogramas, gestión de presupuesto, liderazgo de equipos, coordinación de stakeholders, levantamiento de requerimientos, conectividad rural, internet satelital (VSAT), redes Wi-Fi, coordinación con UGEL y DRE, instalación de servidores, capacitación técnica, biometría, arquitectura de software, comunicación técnica, resolución de problemas"
     }
   ],
   "courses": [

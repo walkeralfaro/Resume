@@ -26,6 +26,32 @@
   techSkills: "Alpine.js, Blade, Bootstrap, Swiper, UI/UX, diseño responsive, MySQL, Eloquent ORM, Laravel, PHP, Filament, Docusaurus, HTML5, CSS3, JavaScript, Git, documentación técnica."
   softSkills: "Trabajo en equipo, comunicación, levantamiento de requerimientos, orientación al usuario."
 
+- position: "Desarrollador Web"
+  organisation: "Independiente"
+  location: "Lima, Perú"
+  dates: "Ago 2021 - Dic 2023"
+  bullets:
+    - "Desarrollé sitios web y sistemas de gestión para pequeñas empresas con PHP, Laravel, CodeIgniter y MySQL, cubriendo requerimientos, diseño, desarrollo y puesta en producción."
+    - "Implementé paneles administrativos y catálogos con Laravel, Blade, Bootstrap y jQuery, permitiendo que los clientes gestionaran su contenido y operaciones sin depender de un desarrollador."
+    - "Desarrollé y personalicé sitios WordPress con temas y plugins a medida, optimizando rendimiento, SEO on-page y seguridad (roles, backups y HTTPS)."
+    - "Integré pasarelas de pago (Culqi y Mercado Pago), formularios, correo transaccional y facturación electrónica SUNAT con Greenter y Nubefact."
+    - "Desplegué aplicaciones en hosting compartido y VPS con cPanel, configurando dominios, DNS, certificados SSL y respaldos; documenté la entrega y capacité a los usuarios."
+  techSkills: "PHP, Laravel, CodeIgniter, MySQL, WordPress, Blade, Bootstrap, jQuery, JavaScript, HTML5, CSS3, API REST, Greenter, Nubefact, Culqi, Mercado Pago, SUNAT, cPanel, DNS, SSL, SEO on-page, Git."
+  softSkills: "Autonomía, comunicación con el cliente, levantamiento de requerimientos, gestión del tiempo, orientación a resultados."
+
+- position: "Coordinador de Proyectos de Conectividad Rural"
+  organisation: "Independiente"
+  location: "Lima, Perú"
+  dates: "Jul 2020 - Jul 2021"
+  bullets:
+    - "Coordiné la instalación de internet satelital (VSAT) y redes Wi-Fi en colegios rurales, articulando con UGEL y DRE el acceso a las sedes y la ejecución dentro del calendario escolar."
+    - "Planifiqué cuadrillas, rutas logísticas y cronogramas para zonas de difícil acceso, asegurando el traslado de antenas, equipos de red y respaldo eléctrico (UPS) hasta cada institución educativa."
+    - "Supervisé la puesta en marcha y las pruebas de conectividad (velocidad, cobertura Wi-Fi y continuidad del servicio), documentando actas de conformidad y reportes de avance por sede."
+    - "Coordiné la capacitación de docentes y directores en el uso del servicio y el reporte de incidencias, mejorando la continuidad operativa de la conexión."
+    - "Gestioné proveedores de telecomunicaciones, transporte y soporte técnico, controlando costos y tiempos de atención de incidencias en campo."
+  techSkills: "Gestión de proyectos, conectividad rural, internet satelital, VSAT, redes Wi-Fi, instalación de antenas, UPS, pruebas de conectividad, logística en zonas rurales, coordinación con UGEL y DRE, capacitación docente, supervisión de instalaciones, reportes de avance."
+  softSkills: "Liderazgo de equipos en campo, comunicación, organización, resolución de problemas, adaptabilidad."
+
 - position: "Coordinador de Proyectos TI"
   organisation: "Intellisoft S.A."
   location: "Lima, Perú"

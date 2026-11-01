@@ -32,15 +32,15 @@
   techSkills: "Astro, React, TypeScript, Tailwind CSS, localStorage, impresión PDF."
   link: "https://github.com/walkeralfaro/cheatsheet-editor-"
 
-- project: "Portfolio Profesional"
-  organisation: "Proyecto personal"
-  location: "Lima, Perú"
-  dates: "Abr 2023 - Actualidad"
-  bullets:
-    - "Diseñé y desarrollé un portfolio web para presentar proyectos frontend y full-stack, con enfoque en rendimiento, accesibilidad y arquitectura escalable."
-    - "Implementé el sitio con Next.js, React, TypeScript y Tailwind CSS, aplicando buenas prácticas de UI/UX y componentes reutilizables, con puntuaciones de ~95/100 en Lighthouse."
-  techSkills: "Next.js, React, TypeScript, Tailwind CSS."
-  link: "https://walkeralfaro.com/"
+# - project: "Portfolio Profesional"
+#   organisation: "Proyecto personal"
+#   location: "Lima, Perú"
+#   dates: "Abr 2023 - Actualidad"
+#   bullets:
+#     - "Diseñé y desarrollé un portfolio web para presentar proyectos frontend y full-stack, con enfoque en rendimiento, accesibilidad y arquitectura escalable."
+#     - "Implementé el sitio con Next.js, React, TypeScript y Tailwind CSS, aplicando buenas prácticas de UI/UX y componentes reutilizables, con puntuaciones de ~95/100 en Lighthouse."
+#   techSkills: "Next.js, React, TypeScript, Tailwind CSS."
+#   link: "https://walkeralfaro.com/"
 
 - project: "REST Countries Explorer"
   organisation: "Proyecto personal"
