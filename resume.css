@@ -3,47 +3,23 @@
 
 /* ------------------------------------------------------------------ Fonts */
 
+/* Roboto variable fonts, latin subset (229 codepoints, no Cyrillic/Greek).
+   Each file covers the full wght axis (100-900), so all weights come from a
+   single 43 KB download per style instead of one file per weight. */
+
 @font-face {
   font-family: "Roboto";
-  src: url("assets/fonts/Roboto-Light.ttf") format("truetype");
-  font-weight: 300;
+  src: url("assets/fonts/Roboto-Variable.woff2") format("woff2");
+  font-weight: 100 900;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Roboto";
-  src: url("assets/fonts/Roboto-LightItalic.ttf") format("truetype");
-  font-weight: 300;
+  src: url("assets/fonts/Roboto-VariableItalic.woff2") format("woff2");
+  font-weight: 100 900;
   font-style: italic;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("assets/fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("assets/fonts/Roboto-Italic.ttf") format("truetype");
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("assets/fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("assets/fonts/Roboto-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("assets/fonts/Roboto-BoldItalic.ttf") format("truetype");
-  font-weight: 700;
-  font-style: italic;
+  font-display: swap;
 }
 
 /* --------------------------------------------------------------- Variables */

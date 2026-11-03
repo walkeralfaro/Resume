@@ -391,6 +391,7 @@ const html = `<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
+<link rel="preload" href="assets/fonts/Roboto-Variable.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="resume.css">
 <style>:root { --russell: ${highlight}; }</style>
 </head>

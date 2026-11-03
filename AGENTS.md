@@ -42,5 +42,6 @@
 
 - `resume.css` is hand-written and linked from `index.html`; it is not generated.
 - Design follows the Russell template: Roboto, A4 geometry, `--russell` accent color, and the first three characters of section titles highlighted.
+- Fonts are two self-hosted variable woff2 files in `assets/fonts/` (`Roboto-Variable.woff2`, `Roboto-VariableItalic.woff2`), latin subset, each covering the full `wght` axis (100-900). `resume.css` declares them once with `font-weight: 100 900` and `font-display: swap`; do not add one file per weight.
 - Screen preview is intentionally scaled with `zoom: 1.25` at viewports >= `27cm`; print resets `zoom: 1` to stay A4. Check screen and print when changing page geometry.
 - `historicos/2026-10-19-ats/` is a dated archive snapshot with the old schema (`person.yaml`, `social.yaml`, `rows`, `date`, `items`). Do not treat it as source or update it during normal content edits.

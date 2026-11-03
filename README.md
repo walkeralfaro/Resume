@@ -21,7 +21,7 @@ Currículum vitae estático construido con tecnologías web y un build Node sin 
 | Contenido | YAML |
 | Render | HTML5 + CSS3 |
 | Parser YAML | `lib/yaml.mjs` (subconjunto propio) |
-| Tipografía | Roboto local (`assets/fonts/`) |
+| Tipografía | Roboto variable en woff2, subset latino (`assets/fonts/`) |
 | Diseño | Inspirado en la plantilla Russell |
 
 ## Requisitos
@@ -77,7 +77,7 @@ resume/*.yaml
 ├── data.js                   # Generado
 ├── index.html                # Generado
 ├── resume.css                # Estilos de pantalla e impresión
-├── assets/fonts/             # Roboto
+├── assets/fonts/             # Roboto variable woff2 (normal + italic)
 ├── historicos/               # Snapshots históricos
 ├── AGENTS.md                 # Convenciones para agentes
 └── README.md
@@ -143,4 +143,4 @@ Ambos se conservan como archivo histórico; no son la fuente actual ni deben act
 ## Créditos
 
 - Diseño inspirado en la plantilla **Russell** y su paleta de colores.
-- Tipografía [Roboto](https://fonts.google.com/specimen/Roboto), incluida localmente en `assets/fonts/`.
+- Tipografía [Roboto](https://fonts.google.com/specimen/Roboto), incluida localmente en `assets/fonts/` como fuente variable woff2 con subset latino.
